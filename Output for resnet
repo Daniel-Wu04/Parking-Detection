@@ -1,0 +1,127 @@
+Using device: cuda
+GPU: NVIDIA GeForce RTX 3080
+Loaded 363873 samples from 3 split files in 13.8s.
+Repaired paths loaded: 45
+✅ Wrote sample cache: train_samples_cache.json
+Loaded 332024 samples from 3 split files in 13.7s.
+Repaired paths loaded: 1
+✅ Wrote sample cache: test_samples_cache.json
+Train size: 363873
+Test size : 332024
+First train sample: C:\Users\2022w\Desktop\ML Parking\PKLot\PKLotSegmented\PUC\Sunny\2012-09-17\Occupied\2012-09-17_10_24_00#020.jpg
+
+--- Stage 1: Frozen training ---
+  batch 200/2843 | avg_loss 0.5830
+  batch 400/2843 | avg_loss 0.3856
+  batch 600/2843 | avg_loss 0.2856
+  batch 800/2843 | avg_loss 0.2292
+  batch 1000/2843 | avg_loss 0.1929
+  batch 1200/2843 | avg_loss 0.1677
+  batch 1400/2843 | avg_loss 0.1491
+  batch 1600/2843 | avg_loss 0.1352
+  batch 1800/2843 | avg_loss 0.1240
+  batch 2000/2843 | avg_loss 0.1150
+  batch 2200/2843 | avg_loss 0.1075
+  batch 2400/2843 | avg_loss 0.1014
+  batch 2600/2843 | avg_loss 0.0959
+  batch 2800/2843 | avg_loss 0.0914
+[Frozen] Epoch 1/1 | Loss: 0.0905 | Test Acc: 99.30% | 14.3 min
+
+--- Stage 2: Fine-tuning ---
+  batch 200/2843 | avg_loss 0.0291
+  batch 400/2843 | avg_loss 0.0271
+  batch 600/2843 | avg_loss 0.0248
+  batch 800/2843 | avg_loss 0.0226
+  batch 1000/2843 | avg_loss 0.0210
+  batch 1200/2843 | avg_loss 0.0199
+  batch 1400/2843 | avg_loss 0.0189
+  batch 1600/2843 | avg_loss 0.0180
+  batch 1800/2843 | avg_loss 0.0170
+  batch 2000/2843 | avg_loss 0.0160
+  batch 2200/2843 | avg_loss 0.0155
+  batch 2400/2843 | avg_loss 0.0147
+  batch 2600/2843 | avg_loss 0.0143
+  batch 2800/2843 | avg_loss 0.0139
+[FT] Epoch 1/5 | Loss: 0.0138 | Test Acc: 99.90% | 16.8 min
+  batch 200/2843 | avg_loss 0.0047
+  batch 400/2843 | avg_loss 0.0060
+  batch 600/2843 | avg_loss 0.0060
+  batch 800/2843 | avg_loss 0.0063
+  batch 1000/2843 | avg_loss 0.0064
+  batch 1200/2843 | avg_loss 0.0066
+  batch 1400/2843 | avg_loss 0.0065
+  batch 1600/2843 | avg_loss 0.0065
+  batch 1800/2843 | avg_loss 0.0065
+  batch 2000/2843 | avg_loss 0.0064
+  batch 2200/2843 | avg_loss 0.0064
+  batch 2400/2843 | avg_loss 0.0063
+  batch 2600/2843 | avg_loss 0.0062
+  batch 2800/2843 | avg_loss 0.0062
+[FT] Epoch 2/5 | Loss: 0.0062 | Test Acc: 99.92% | 14.9 min
+  batch 200/2843 | avg_loss 0.0042
+  batch 400/2843 | avg_loss 0.0040
+  batch 600/2843 | avg_loss 0.0043
+  batch 800/2843 | avg_loss 0.0046
+  batch 1000/2843 | avg_loss 0.0046
+  batch 1200/2843 | avg_loss 0.0047
+  batch 1400/2843 | avg_loss 0.0047
+  batch 1600/2843 | avg_loss 0.0047
+  batch 1800/2843 | avg_loss 0.0046
+  batch 2000/2843 | avg_loss 0.0046
+  batch 2200/2843 | avg_loss 0.0044
+  batch 2400/2843 | avg_loss 0.0043
+  batch 2600/2843 | avg_loss 0.0044
+  batch 2800/2843 | avg_loss 0.0042
+[FT] Epoch 3/5 | Loss: 0.0042 | Test Acc: 99.93% | 8.2 min
+  batch 200/2843 | avg_loss 0.0031
+  batch 400/2843 | avg_loss 0.0037
+  batch 600/2843 | avg_loss 0.0035
+  batch 800/2843 | avg_loss 0.0038
+  batch 800/2843 | avg_loss 0.0038
+  batch 1000/2843 | avg_loss 0.0037
+  batch 1200/2843 | avg_loss 0.0035
+  batch 1000/2843 | avg_loss 0.0037
+  batch 1200/2843 | avg_loss 0.0035
+  batch 1400/2843 | avg_loss 0.0034
+  batch 1600/2843 | avg_loss 0.0033
+  batch 1400/2843 | avg_loss 0.0034
+  batch 1600/2843 | avg_loss 0.0033
+  batch 1800/2843 | avg_loss 0.0032
+  batch 1800/2843 | avg_loss 0.0032
+  batch 2000/2843 | avg_loss 0.0033
+  batch 2200/2843 | avg_loss 0.0034
+  batch 2000/2843 | avg_loss 0.0033
+  batch 2200/2843 | avg_loss 0.0034
+  batch 2400/2843 | avg_loss 0.0033
+  batch 2600/2843 | avg_loss 0.0033
+  batch 2400/2843 | avg_loss 0.0033
+  batch 2600/2843 | avg_loss 0.0033
+  batch 2800/2843 | avg_loss 0.0033
+[FT] Epoch 4/5 | Loss: 0.0033 | Test Acc: 99.93% | 9.0 min
+  batch 200/2843 | avg_loss 0.0018
+  batch 2800/2843 | avg_loss 0.0033
+[FT] Epoch 4/5 | Loss: 0.0033 | Test Acc: 99.93% | 9.0 min
+  batch 200/2843 | avg_loss 0.0018
+  batch 400/2843 | avg_loss 0.0021
+  batch 600/2843 | avg_loss 0.0025
+  batch 400/2843 | avg_loss 0.0021
+  batch 600/2843 | avg_loss 0.0025
+  batch 800/2843 | avg_loss 0.0024
+  batch 1000/2843 | avg_loss 0.0024
+  batch 800/2843 | avg_loss 0.0024
+  batch 1000/2843 | avg_loss 0.0024
+  batch 1200/2843 | avg_loss 0.0023
+  batch 1200/2843 | avg_loss 0.0023
+  batch 1400/2843 | avg_loss 0.0024
+  batch 1400/2843 | avg_loss 0.0024
+  batch 1600/2843 | avg_loss 0.0024
+  batch 1600/2843 | avg_loss 0.0024
+  batch 1800/2843 | avg_loss 0.0023
+  batch 2000/2843 | avg_loss 0.0024
+  batch 2200/2843 | avg_loss 0.0023
+  batch 2400/2843 | avg_loss 0.0024
+  batch 2600/2843 | avg_loss 0.0024
+  batch 2800/2843 | avg_loss 0.0024
+[FT] Epoch 5/5 | Loss: 0.0024 | Test Acc: 99.94% | 18.9 min
+
+✅ Training complete.
