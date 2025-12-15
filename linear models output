@@ -1,0 +1,42 @@
+Shapes:
+TRAIN: (363828, 1764) Empty: 186032 Occ: 177796
+TEST:  (332023, 1764) Empty: 172039 Occ: 159984
+
+Standardizing features...
+Scaling time: 9.20 sec
+
+Training Logistic Regression...
+LR training time: 55.15 sec
+
+=== Logistic Regression ===
+              precision    recall  f1-score   support
+
+       Empty     0.9788    0.9910    0.9849    172039
+    Occupied     0.9902    0.9770    0.9835    159984
+
+    accuracy                         0.9842    332023
+   macro avg     0.9845    0.9840    0.9842    332023
+weighted avg     0.9843    0.9842    0.9842    332023
+
+Confusion Matrix:
+[[170487   1552]
+ [  3684 156300]]
+Prediction time: 1.98 sec
+
+Training Linear SVM (LinearSVC)...
+Linear SVM training time: 63.83 sec
+
+=== Linear SVM (LinearSVC) ===
+              precision    recall  f1-score   support
+
+       Empty     0.9791    0.9913    0.9851    172039
+    Occupied     0.9905    0.9772    0.9838    159984
+
+    accuracy                         0.9845    332023
+   macro avg     0.9848    0.9842    0.9845    332023
+weighted avg     0.9846    0.9845    0.9845    332023
+
+Confusion Matrix:
+[[170540   1499]
+ [  3648 156336]]
+Prediction time: 2.56 sec
