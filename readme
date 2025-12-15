@@ -1,0 +1,6 @@
+Using the pklot data combine the three train and test files into one, using the combine script for the mega txt file. 
+use image combine to create the folder of the image data sets
+image process to process the images for the machine learning model so it doesnt have to recompile each run
+run the parking detect linear models 
+
+just watch for the file path logic, and making sure the file paths to the folders are correct as the txt store relative paths
